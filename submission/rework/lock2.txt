@@ -1,0 +1,19 @@
+round: rework
+slice: B1-edge
+sha256: 235f7fb9d521f6c6144f12a2abed0ae4e909985f99ccea47768448e87bdec149
+code: 235F-7FB9
+locked_at: 2026-09-28T22:51:45+07:00
+shapes: box=21, polygon=9
+prefill_kept: 0
+prefill_edited: 3
+new: 18
+history:
+  round: rework
+  slice: B1-edge
+  sha256: 77f9cbc99ecf9e0b703e5c2ad6d7794d4662852ceddc2f4fd065c98cbe6d9a2d
+  code: 77F9-CBC9
+  locked_at: 2026-09-28T22:49:29+07:00
+  shapes: box=21, polygon=9
+  prefill_kept: 0
+  prefill_edited: 3
+  new: 18

@@ -1,0 +1,19 @@
+{
+  "members": [
+    "tien"
+  ],
+  "assignments": {
+    "tien": "B1-edge"
+  },
+  "self": "tien",
+  "slice": "B1-edge",
+  "degrade": [],
+  "current_slice": "B1-edge",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_001320.jpg:1",
+    "adasind_001320.jpg:2",
+    "adasind_001320.jpg:3"
+  ]
+}

@@ -1,0 +1,19 @@
+round: calib
+slice: C0
+sha256: 278fe70e30ef83f89304341c5304b53b9dbde951689de96d406fadaecdde0f22
+code: 278F-E70E
+locked_at: 2026-09-28T17:26:23+07:00
+shapes: box=8, polygon=2
+prefill_kept: 0
+prefill_edited: 0
+new: 8
+history:
+  round: calib
+  slice: C0
+  sha256: de1ee9268abe9c1d45436711018334e170b73401ec49c21353a8f9aa67236928
+  code: DE1E-E926
+  locked_at: 2026-09-28T17:19:20+07:00
+  shapes: box=8, polygon=2
+  prefill_kept: 0
+  prefill_edited: 0
+  new: 8

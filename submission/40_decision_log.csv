@@ -1,1 +1,6 @@
 id,date,question,decision,rationale,status
+1,2026-09-28,L2 Bus vs R5 Truck ở adasind_014670.jpg — class nào đúng?,Giữ nguyên cả hai label và escalate cho qa review crop gốc,Ảnh fisheye méo mạnh ở edge khiến không phân biệt chắc chắn Bus/Truck; cần R04 guidance bổ sung,escalated
+2,2026-09-28,L3 SPURIOUS ở adasind_014670.jpg — box thừa hay reference thiếu?,Giữ finding SPURIOUS vì object gần ngưỡng H=40 ở vùng edge,Chiều cao pixel khó xác minh do méo fisheye; zoom 100% cho thấy object nhỏ hơn 40 px thực tế,resolved
+3,2026-09-28,Model bỏ sót 8+ đối tượng LR_noM — do domain shift hay confidence?,Escalate cho ai_team để kiểm recall theo class × zone trên nhiều frame hơn,Ba frame không đủ kết luận E4_model_domain; cần ít nhất 20 frame và so sánh confidence distribution,escalated
+4,2026-09-28,R9 MISSING ở adasind_034080.jpg — ThreeWheeler reference có mà annotator bỏ sót,Sửa bổ sung box ThreeWheeler vào rework,Xem crop gốc xác nhận đối tượng rõ ràng cao > 40 px và đúng class ThreeWheeler theo R04,resolved
+5,2026-09-28,L4+L5 DUPLICATE nghi ở adasind_034080.jpg — hai box chồng có phải trùng lặp?,Giữ cả hai box vì L4 khớp R8 và L5 khớp R5 — hai đối tượng Bike riêng biệt,QA round xác nhận overlap không chứng minh duplication; mỗi box match reference object khác nhau,resolved

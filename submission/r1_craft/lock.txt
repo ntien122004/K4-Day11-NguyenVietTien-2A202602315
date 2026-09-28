@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B1-edge
+sha256: dae1cffc0509c9741e6032f1a084638bc49eac11c8ec81d8d9f8c5060ae1c93c
+code: DAE1-CFFC
+locked_at: 2026-09-28T18:26:44+07:00
+shapes: box=21, polygon=9
+prefill_kept: 0
+prefill_edited: 3
+new: 18

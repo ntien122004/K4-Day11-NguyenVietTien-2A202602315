@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Thấp — vùng trước xe có contrast tốt và ít occlude,Front camera nhìn thẳng phía trước; ảnh ít méo ở center/mid. Normal scene (đường thẳng ban ngày) ít lỗi annotation. 30 frame từ ít nhất 10 scene đường đô thị khác nhau để kiểm baseline quality.
+front,hard,25,Cao — glare ngược sáng và xe chuyển camera qua seam front-left/front-right,Ánh sáng ngược (glare) làm mất chi tiết; xe sát thân ở seam front-left/right xuất hiện trên 2 camera. Chọn scene có nắng chiếu thẳng và scene có xe ra/vào seam. Mỗi scene tối đa 3 frame.
+rear,normal,25,Trung bình — camera sau có phản chiếu mặt đường ướt,Rear camera nhìn phía sau; normal scene ít vật nhưng mặt đường phản chiếu tạo ghost. 25 frame từ scene ban ngày khô ráo; tách scene theo đoạn đường khác nhau.
+rear,hard,30,Cao — mặt đường ướt phản chiếu tạo ghost object và bóng đổ dài,Phản chiếu trên mặt đường ướt dễ tạo FP; bóng đổ dài lúc sáng sớm/chiều tối giống đối tượng thật. Chọn scene mưa và hoàng hôn. 30 frame từ ít nhất 10 scene.
+left,normal,20,Trung bình — vùng bên có distortion fisheye trung bình,Left camera bên hông trái; normal scene là đường thẳng không có xe sát. 20 frame từ ít nhất 7 scene đô thị khác nhau.
+left,hard,25,Cao — xe sát thân (< 1m) gây distortion fisheye lớn và seam left-front/left-rear,Xe sát hông trái bị méo cực mạnh; vật ở seam left-front và left-rear xuất hiện trên 2 camera. Chọn scene đỗ xe song song và giao lộ. 25 frame từ ít nhất 8 scene.
+right,normal,20,Trung bình — tương tự left nhưng phía phải,Right camera đối xứng với left; normal scene tương tự. 20 frame từ ít nhất 7 scene khác nhau.
+right,hard,25,Cao — xe sát thân bên phải và bóng đổ dài ở phía tây vào chiều,Tương tự left-hard nhưng thêm rủi ro bóng đổ dài phía tây chiều tối. Chọn scene đỗ xe sát hông phải và bóng nắng xiên. 25 frame từ ít nhất 8 scene.
